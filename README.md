@@ -56,50 +56,48 @@ Frontend UI / Streamlit App
 ## 📂 Project Structure
 
 ```
-rag-chatbot/
+policypal-project/
 │
-├── config/
-│   └── config.yaml
+├── backend/
+│   ├── data/
+│   │   ├── raw/
+│   │   ├── processed/
+│   │   └── vector_db/
+│   ├── config/
+│   │   └── config.yaml
+│   ├── ingestion/
+│   │   ├── fetch_doc.py
+│   │   ├── normalize.py
+│   │   └── run_ingestion.py
+│   ├── chunking/
+│   │   ├── semantic_chunker.py
+│   │   └── run_chunking.py
+│   ├── embeddings/
+│   │   ├── embedder.py
+│   │   ├── vector_store.py
+│   │   └── run_embedding.py
+│   ├── retrieval/
+│   │   └── retriever.py
+│   ├── rag/
+│   │   └── rag_pipeline.py
+│   ├── app.py
+│   ├── .env
+│   ├── .gitignore
+│   ├── .dockerignore
+│   ├── Dockerfile
+│   └── requirements.txt
 │
-├── ingestion/
-│   ├── fetch_doc.py
-│   ├── normalize.py
-│   └── run_ingestion.py
-│
-├── chunking/
-│   ├── semantic_chunker.py
-│   └── run_chunking.py
-│
-├── embeddings/
-│   ├── embedder.py
-│   ├── vector_store.py
-│   └── run_embedding.py
-│
-├── retrieval/
-│   └── retriever.py
-│
-├── rag/
-│   └── rag_pipeline.py
+├── frontend/
+│   ├── index.html
+│   ├── script.js
+│   ├── style.css
+│   └── netlify.toml
 │
 ├── ui/
-│   ├── frontend/
-│   │   ├── index.html
-│   │   ├── style.css
-│   │   └── app.js
-│   │
-│   ├── backend/
-│   │   └── app.py   (FastAPI)
-│   │
 │   └── streamlit_app.py
 │
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── vector_db/
-│
-├── .env
-├── requirements.txt
-└── README.md
+├── README.md
+└── docker-compose.yml
 ```
 
 ---
