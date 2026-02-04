@@ -308,7 +308,7 @@ cd frontend
 python -m http.server 5500
 
 ### Open in browser
-# http://localhost:5500
+http://localhost:5500
 
 ---
 
