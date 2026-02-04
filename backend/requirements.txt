@@ -1,17 +1,13 @@
--e .
 requests
 python-dotenv
-pyyaml
+PyYAML
 beautifulsoup4
 lxml
-# google-generativeai
 sentence-transformers
 faiss-cpu
 numpy
 google-genai
 streamlit
-fastapi 
-uvicorn 
+fastapi
+uvicorn
 pydantic
-PyYAML
-
