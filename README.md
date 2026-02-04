@@ -121,7 +121,7 @@ policypal-project/
 ## 🌐 Live Demo
 
 **Streamlit App:**  
-👉 https://policypalassignment-koaszomdwha3zn6kyedziu.streamlit.app/
+👉 https://policypal-xd9fwqo2uegobrulmeo7on.streamlit.app/
 
 ---
 
