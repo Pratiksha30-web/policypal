@@ -1,6 +1,6 @@
 requests
 python-dotenv
-PyYAML
+pyyaml
 beautifulsoup4
 lxml
 sentence-transformers
