@@ -1,6 +1,7 @@
 import streamlit as st
 from rag.rag_pipeline import RAGPipeline
 
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 # ---------------- PAGE CONFIG ----------------
 
