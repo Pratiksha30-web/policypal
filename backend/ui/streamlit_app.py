@@ -1,5 +1,6 @@
 import streamlit as st
-from rag.rag_pipeline import RAGPipeline
+from backend.rag.rag_pipeline import RAGPipeline
+
 
 
 
