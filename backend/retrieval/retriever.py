@@ -2,8 +2,8 @@ import numpy as np
 import json
 
 from sentence_transformers import SentenceTransformer
-from embeddings.vector_store import FAISSStore, faiss_exists
-from embeddings.embedder import EmbeddingModel
+from backend.embeddings.vector_store import FAISSStore, faiss_exists
+from backend.embeddings.embedder import EmbeddingModel
 
 
 class Retriever:
