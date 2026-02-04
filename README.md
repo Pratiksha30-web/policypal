@@ -146,8 +146,8 @@ policypal-project/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/rag-chatbot.git
-cd rag-chatbot
+git clone https://github.com/Pratiksha30-web/policypal.git
+cd policypal
 ```
 
 ---
@@ -302,6 +302,13 @@ Backend API: http://localhost:8000
   "timestamp": "2026-01-17T10:12:44"
 }
 ```
+
+## Open frontend using Python live server
+cd frontend
+python -m http.server 5500
+
+### Open in browser
+# http://localhost:5500
 
 ---
 
