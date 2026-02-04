@@ -3,8 +3,7 @@ import yaml
 from dotenv import load_dotenv
 from google import genai
 
-from retrieval.retriever import Retriever
-
+from backend.retrieval.retriever import Retriever
 
 load_dotenv()
 
