@@ -269,7 +269,7 @@ You can run the PolicyPal backend directly from the pre-built image hosted on Do
 Replace YOUR_API_KEY with your Gemini API Key:
 
 ```
-docker run -d -p 8000:8000 -e GEMINI_API_KEY="AIzaSyDfL4hqY3oTRKugGn7XHUUAZY1_jNO2rcQ" --name policypal-app bazy07/policy-pal-api:v1
+docker run -d -p 8000:8000 -e GEMINI_API_KEY="YOUR_API_KEY" --name policypal-app bazy07/policy-pal-api:v1
 
 ```
 
