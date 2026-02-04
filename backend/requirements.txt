@@ -1,3 +1,4 @@
+-e .
 requests
 python-dotenv
 pyyaml
