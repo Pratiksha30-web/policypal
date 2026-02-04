@@ -1,5 +1,5 @@
 import streamlit as st
-from backend.rag.rag_pipeline import RAGPipeline
+from rag.rag_pipeline import RAGPipeline
 
 
 # ---------------- PAGE CONFIG ----------------
